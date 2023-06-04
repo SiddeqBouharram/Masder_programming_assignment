@@ -11,4 +11,11 @@ public class Full_EMP extends EMP_rec {
 
     }
 
+    public double Calc_SalaryWBounus(double Salary) {
+        // this method calculate the Salary With the Bounus
+
+        return this.getSalary() + Calc_Bounus(Salary);
+
+    }
+
 }
